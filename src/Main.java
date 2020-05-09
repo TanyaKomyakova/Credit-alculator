@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         CreditPaymentService service = new CreditPaymentService();
 
-        float payment = service.calculate(24, 1000000);
+        float payment = service.calculate(12, 1000000);
         System.out.println(payment);
 
         float payment2 = service.calculate(24, 1000000);
