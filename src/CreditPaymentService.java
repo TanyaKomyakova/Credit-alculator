@@ -1,7 +1,8 @@
 public class CreditPaymentService {
     public long calculate (int time, int credit){
         double percent = 9.99;
-        double percentinmontn = percent / time / 100;
+        double year = 12;
+        double percentinmontn = percent / year / 100;
         double sum = 1 + percentinmontn;
 
         double degree = (double) (Math.pow(sum, time));
